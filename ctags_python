@@ -1,4 +1,4 @@
 #!/bin/bash
 python_system_path=$(python -c "import os, sys; print(' '.join('{}'.format(d) for d in sys.path if os.path.isdir(d)))")
-#echo "ctags python $@ $python_system_path" >> /tmp/my.log
+echo "ctags python $@ $python_system_path" >> /tmp/my.log
 ctags "$@ $python_system_path"
