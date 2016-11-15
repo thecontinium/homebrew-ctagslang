@@ -6,8 +6,7 @@ class CtagsPython< Formula
   skip_clean 'bin'
 
   def install
-    ohai "No executables will be installed"
-    prefix.install Dir["config/*.plist"]
+    bin.install 'ctags_python'
   end
 
 end
