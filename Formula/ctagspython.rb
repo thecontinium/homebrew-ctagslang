@@ -1,4 +1,4 @@
-class CtagsPython < Formula
+class Ctagspython < Formula
   homepage 'https://github.com/thecontinium/homebrew-ctagspython/'
   url 'https://github.com/thecontinium/homebrew-ctagspython.git'
   version '1.0.1'
