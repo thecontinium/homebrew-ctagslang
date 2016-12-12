@@ -1,7 +1,7 @@
-class Ctagspython < Formula
-  homepage 'https://github.com/thecontinium/homebrew-ctagspython/'
-  url 'https://github.com/thecontinium/homebrew-ctagspython.git'
-  version '1.0.7'
+class Ctagslang < Formula
+  homepage 'https://github.com/thecontinium/homebrew-ctagslang/'
+  url 'https://github.com/thecontinium/homebrew-ctagslang.git'
+  version '1.0.8'
 
   skip_clean 'bin'
 
