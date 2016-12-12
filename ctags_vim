@@ -1,0 +1,2 @@
+#!/bin/bash
+/usr/local/bin/ctags --language-force=vim --extra=fq --fields=+ailmnSz --vim-kinds=-f --regex-vim='/function!?[ \t]+(([bwtglsa]:)?\w+(\.\w+)+|(g:)?([A-Z]\w*|\w+(#\w+)+)|s:\w+)[ \t]*\(/\1/function/' "$@"
