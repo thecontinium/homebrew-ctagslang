@@ -1,1 +1,1 @@
-# homebrew-ctagspython
+# homebrew-ctagslang
